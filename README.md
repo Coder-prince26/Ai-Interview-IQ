@@ -192,8 +192,8 @@ Frontend/
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/Coder-prince26/Ai-Interview-IQ.git
+cd  Ai-Interview-IQ
 
 # 2. Start the backend
 cd Backend
@@ -229,7 +229,7 @@ Open `http://localhost:5173` in your browser.
 
 **Prince Singh**
 
-- GitHub: [@your-username](https://github.com/Coder-prince26)
+- GitHub: [@Coder-prince26](https://github.com/Coder-prince26)
 
 
 ---
