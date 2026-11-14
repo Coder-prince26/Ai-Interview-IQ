@@ -1,9 +1,4 @@
-import axios from "axios";
-
-const api = axios.create({
-    baseURL: "http://localhost:3000",
-    withCredentials: true,
-})
+import { api } from "../../../api.js"
 
 
 /**
@@ -14,7 +9,11 @@ export const generateInterviewReport = async ({ jobDescription, selfDescription,
     const formData = new FormData()
     formData.append("jobDescription", jobDescription)
     formData.append("selfDescription", selfDescription)
-    formData.append("resume", resumeFile)
+
+    // Resume is optional, so only send it when the user picked a file
+    if (resumeFile) {
+        formData.append("resume", resumeFile)
+    }
 
     const response = await api.post("/api/interview/", formData, {
         headers: {
