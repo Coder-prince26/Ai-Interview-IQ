@@ -14,7 +14,7 @@ Paste a job description, upload your resume, and get a personalised interview pl
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?logo=googlegemini&logoColor=white)
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?logo=puppeteer&logoColor=white)
 
-[Live Demo](#) | [Report a Bug](../../issues) | [Request a Feature](../../issues)
+[Live Demo](https://ai-interview-iq-theta.vercel.app) | [Report a Bug](../../issues) | [Request a Feature](../../issues)
 
 </div>
 
@@ -185,6 +185,8 @@ Frontend/
 | Variable | Required | Description |
 | --- | --- | --- |
 | `VITE_API_URL` | Yes | Backend URL (for example `http://localhost:3000`) |
+
+> **Note:** The backend runs on a free plan, so the first request after a period of inactivity can take up to a minute while the server wakes up.
 
 ## Getting Started
 
